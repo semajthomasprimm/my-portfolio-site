@@ -1,19 +1,17 @@
 const projectsData = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
+    title: 'Cryptocurrency Dashboard',
+    description: `A price tracker for top 100 cryptocurrencies based on CoinGecko.`,
+    imgSrc: '/static/images/crypto-dashboard.png',
+    href: 'https://cryptodashboardsprimm.netlify.app/',
+    repoHref: 'https://github.com/semajthomasprimm/crypto-dashboard',
   },
   {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten handphones with this simple yet affordable solution.`,
-    imgSrc: '/static/images/time-machine.jpg',
-    href: '/blog/the-time-machine',
+    title: 'COVID-19 Dashboard',
+    description: `A COVID-19 case tracker for Canada. Includes charts displaying daily statistics of cases, deaths, tests, and vaccinations for Canada, provinces and territories.`,
+    imgSrc: '/static/images/covid19-dashboard.png',
+    href: 'https://covid19-canada-dashboard.netlify.app/',
+    repoHref: 'https://github.com/semajthomasprimm/covid19-canada-dashboard',
   },
 ]
 

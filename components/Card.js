@@ -1,12 +1,12 @@
 import Image from './Image'
 import Link from './Link'
 
-const Card = ({ title, description, imgSrc, href }) => (
+const Card = ({ title, description, imgSrc, href, repoHref }) => (
   <div className="p-4 md:w-1/2 md" style={{ maxWidth: '544px' }}>
     <div className="h-full overflow-hidden border-2 border-gray-200 rounded-md border-opacity-60 dark:border-gray-700">
       {href ? (
         <Link href={href} aria-label={`Link to ${title}`}>
-          <img
+          <Image
             alt={title}
             src={imgSrc}
             className="object-cover object-center lg:h-48 md:h-36"
@@ -15,7 +15,7 @@ const Card = ({ title, description, imgSrc, href }) => (
           />
         </Link>
       ) : (
-        <img
+        <Image
           alt={title}
           src={imgSrc}
           className="object-cover object-center lg:h-48 md:h-36"
@@ -37,10 +37,23 @@ const Card = ({ title, description, imgSrc, href }) => (
         {href && (
           <Link
             href={href}
-            className="text-base font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+            className="my-8 g-transparent hover:bg-green-500 font-semibold hover:text-white py-2 px-4 border border-green-500 hover:border-transparent rounded"
             aria-label={`Link to ${title}`}
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            Learn more &rarr;
+            View Site
+          </Link>
+        )}
+        {repoHref && (
+          <Link
+            href={repoHref}
+            className="my-8 mx-3 g-transparent hover:bg-green-500 font-semibold hover:text-white py-2 px-4 border border-green-500 hover:border-transparent rounded"
+            aria-label={`Link to ${title}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Repo
           </Link>
         )}
       </div>
