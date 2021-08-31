@@ -37,7 +37,7 @@ const Card = ({ title, description, imgSrc, href, repoHref }) => (
         {href && (
           <Link
             href={href}
-            className="my-8 g-transparent hover:bg-green-500 font-semibold hover:text-white py-2 px-4 border border-green-500 hover:border-transparent rounded"
+            className="my-8 mr-3 g-transparent hover:bg-green-500 font-semibold hover:text-white py-2 px-4 border border-green-500 hover:border-transparent rounded"
             aria-label={`Link to ${title}`}
             target="_blank"
             rel="noopener noreferrer"
@@ -48,7 +48,7 @@ const Card = ({ title, description, imgSrc, href, repoHref }) => (
         {repoHref && (
           <Link
             href={repoHref}
-            className="my-8 mx-3 g-transparent hover:bg-green-500 font-semibold hover:text-white py-2 px-4 border border-green-500 hover:border-transparent rounded"
+            className="my-8 g-transparent hover:bg-green-500 font-semibold hover:text-white py-2 px-4 border border-green-500 hover:border-transparent rounded"
             aria-label={`Link to ${title}`}
             target="_blank"
             rel="noopener noreferrer"
