@@ -8,9 +8,7 @@ const siteMetadata = {
   siteLogo: '/static/images/logo_icon.png',
   image: '/static/images/profile.jpg',
   socialBanner: '/static/images/twitter-card.png',
-  github: 'https://github.com/semajthomasprimm',
   twitter: 'https://twitter.com/thecoolcoder',
-  linkedin: 'https://www.linkedin.com/in/semajprimm',
   locale: 'en-US',
   analytics: {
     // supports plausible, simpleAnalytics or googleAnalytics

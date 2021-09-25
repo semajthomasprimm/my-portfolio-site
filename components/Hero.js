@@ -7,7 +7,7 @@ export default function Hero() {
             Hi, I'm Semaj.
           </h1>
           <p className="mb-8 sm:text-4xl text-xl text-gray-600 dark:text-gray-400">
-            Computer Science student at Sheridan College.
+            Software Engineer
           </p>
         </div>
       </div>

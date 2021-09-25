@@ -6,6 +6,12 @@ const projectsData = [
     repoHref: 'https://github.com/semajthomasprimm/image-to-excel',
   },
   {
+    title: 'Meeting Scheduler Slack Bot',
+    description: `Schedule Google events from Slack with commands. Integrated with Stripe for billing.`,
+    imgSrc: '/static/images/slack-scheduler-bot.png',
+    repoHref: 'https://github.com/semajthomasprimm/meeting-scheduler-slack-bot',
+  },
+  {
     title: 'Cryptocurrency Dashboard',
     description: `A price tracker for top 100 cryptocurrencies based on CoinGecko.`,
     imgSrc: '/static/images/crypto-dashboard.png',
